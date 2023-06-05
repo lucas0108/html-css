@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mais testes de formatação</title>
+</head>
+<body>
+    <h1>Mais testes de formatação</h1>
+    <h2>Texto deletado</h2>
+    <p>Aqui temos <del>um exemplo de texto deletado</del> feito com a tag &lt;del&gt;</p>
+    <h2>Texto inserido</h2>
+    <p>Aqui temos o <ins>exemplo de um texto inserido</ins> feito com a tag &lt;ins&gt;</p>
+    <h2>Texto com marca texto</h2>
+    <p>Aqui temos um <mark>exemplo de texto marcado com um marca texto</mark>, que é possível com a tag &lt;mark&gt;</p>
+    <h2>Texto pequeno, ou letras miúdas</h2>
+    <p>Apesar da tag &lt;big&gt;, que <big>deixa as letras grandes</big> ter caído em desuso, a tag &lt;small&gt;, <small>que deixa as letras miúdas</small> ainda é usada.</p>
+    <h2>Textos sobrescritos e subscritos</h2>
+    <p>Temos também as tags &lt;sup&gt; e &lt;sub&gt; que são, respectivamente, as tags responsáveis em x<sup>20</sup>+3 pelo <sup>20</sup> e em H<sub>2</sub>O pelo <sub>2</sub></p>
+    <h2>Trechos de código</h2>
+    <p>Temos também a tag &lt;code&gt;, que deixa o texto assim:</p>
+    <code>
+        num = int(input('Digite um número'))
+        if num % 2 == 0:
+            print(f'O número {num} é PAR)
+        else:
+            print(f'O número {num} é ÍMPAR')
+        print('FIM DO CÓDIGO')
+    </code>
+    <p>Porém notamos que o código ainda não está apresentado da mesma forma que seria num VS Code por exemplo, com as identações e quebras de linha. Para isso utilizamos a tag &lt;pre&gt; em conjunto com o &lt;code&gt; e obtemos isso:</p>
+    <pre><code>
+    num = int(input('Digite um número'))
+    if num % 2 == 0:
+        print(f'O número {num} é PAR)
+    else:
+        print(f'O número {num} é ÍMPAR')
+    print('FIM DO CÓDIGO')
+    </code></pre>
+    <p>com as indentações e quebras de linha todas respeitadas.</p>
+    <h2>Citações</h2>
+    <p>Para fazermos citações temos duas tags, o &lt;q&gt;, que <q>coloca aspas para uma frase</q>, e temos o &lt;blockquote&gt;, que cria um paragrafo de citação, por exemplo:</p>
+    <blockquote>O homem é o lobo do homem</blockquote>
+    <h2>Abreviações</h2>
+    <p>Temos também como explicar uma abreviação com a tag &lt;abbr&gt;, como por exemplo na frase: <q>Estou aprendendo <abbr title="Hyper-Text Markup Language">HTML</abbr> e <abbr title="Cascade Style Sheets">CSS</abbr> e estou animado.</q></p>
+</body>
+</html>
